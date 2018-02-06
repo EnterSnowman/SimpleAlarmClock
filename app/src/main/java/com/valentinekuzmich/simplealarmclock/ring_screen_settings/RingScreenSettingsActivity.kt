@@ -215,15 +215,15 @@ class RingScreenSettingsActivity : AppCompatActivity(),IRingScreenSettings.View 
                 })
                 .build()
         slideFab.setOnClickListener { v ->
+            if (!slideUp.isAnimationRunning)
             if (!slideUp.isVisible){
                 //Log.d("UI","slideView height ${settingsView.layoutParams.height.toFloat()}")
                 //Log.d("UI","sliderUp height ${slideUp.getSliderView<LinearLayout>().layoutParams.height.toFloat()}")
                 showUISlide()
-                colorSlideFab.hide()
+                hideColorSlide()
             }
             else{
                 hideUISlide()
-                colorSlideFab.show()
             }
         }
 
@@ -249,15 +249,15 @@ class RingScreenSettingsActivity : AppCompatActivity(),IRingScreenSettings.View 
                 //.withHideSoftInputWhenDisplayed(true)
                 .build()
         colorSlideFab.setOnClickListener { v ->
+            if (!colorSlideUp.isAnimationRunning)
             if (!colorSlideUp.isVisible){
                 //Log.d("UI","slideView height ${settingsView.layoutParams.height.toFloat()}")
                 //Log.d("UI","sliderUp height ${slideUp.getSliderView<LinearLayout>().layoutParams.height.toFloat()}")
                 showColorSlide()
-                slideFab.hide()
+                hideUISlide()
             }
             else{
                 hideColorSlide()
-                slideFab.show()
             }
         }
     }
