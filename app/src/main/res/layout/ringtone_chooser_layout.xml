@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/ring_screen_settings_bottom_tab_padding">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chooser">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/system_ringtone"
+        android:id="@+id/system"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/from_memory"
+        android:id="@+id/user"/>
+</RadioGroup>
+</LinearLayout>

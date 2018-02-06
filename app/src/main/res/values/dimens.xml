@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_time_size">40sp</dimen>
+    <dimen name="main_clock_time_size">72sp</dimen>
+    <dimen name="subheading_text_size">16sp</dimen>
+    <dimen name="body2_text_size">14sp</dimen>
+
+    <dimen name="ring_screen_settings_bottom_tab_padding">16dp</dimen>
+    <dimen name="intersection_margin">16dp</dimen>
+    <dimen name="play_button_size">36dp</dimen>
+    <dimen name="play_button_radius">18dp</dimen>
+</resources>

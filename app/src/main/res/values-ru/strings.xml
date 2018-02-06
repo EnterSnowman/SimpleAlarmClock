@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Обычный будильник</string>
+    <string name="add_clock">Добавить будильник</string>
+    <string name="clearAll">Удалить все</string>
+    <string name="choose_ringthone">Выбрать мелодию</string>
+    <string name="choose_ringtone">Выбрать мелодию</string>
+    <string name="system_ringtone">Системная мелодия</string>
+    <string name="from_memory">Из памяти</string>
+    <string name="choose_ringtone_type">Выберите тип мелодии</string>
+    <string name="settings">Настройки</string>
+    <string name="ringtone_settings">Настройки мелодии</string>
+    <string name="volume">Громкость</string>
+    <string name="select">Выбрать</string>
+    <string name="default_ring">Мелодия по-умолчанию</string>
+    <string name="pulse_count">Количество пульсаций:</string>
+    <string name="pulse_duration">Длительность пульсации</string>
+    <string name="interpolator_label">Выберите тип анимации</string>
+    <string name="type_of_ringtone">Тип мелодии</string>
+    <string name="ringtone_name">Название мелодии</string>
+    <string name="pulsation">Пульсация</string>
+    <string name="turn_off_button">Кнопка выключения</string>
+    <string name="screen_settings">Настройки экрана</string>
+    <string name="Linear">Линейная</string>
+    <string name="Accelerate" translatable="false">Ускоренная</string>
+    <string name="Decelerate">Замедленная</string>
+    <string name="AccelerateDecelerate">Ускоренно-замедленная</string>
+</resources>

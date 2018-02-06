@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/add_clock"
+        android:id="@+id/add_clock"
+        android:icon="@drawable/plus"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/ringtone_settings"
+        android:icon="@drawable/music"
+        android:id="@+id/choose_ringtone"
+        app:showAsAction="never"/>
+    <item android:title="@string/screen_settings"
+        android:id="@+id/testRing"
+        android:icon="@drawable/settings_box"
+        app:showAsAction="never"/>
+
+</menu>

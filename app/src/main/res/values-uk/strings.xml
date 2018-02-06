@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Звичайний будильник</string>
+    <string name="add_clock">Додати будильник</string>
+    <string name="clearAll">Видалити все</string>
+    <string name="choose_ringthone">Вибрати мелодію</string>
+    <string name="choose_ringtone">Вибрати мелодію</string>
+    <string name="system_ringtone">Системна мелодія</string>
+    <string name="from_memory">З пам\'яті</string>
+    <string name="choose_ringtone_type">Виберіть тип мелодії</string>
+    <string name="settings">Настройки</string>
+    <string name="ringtone_settings">Настройки мелодії</string>
+    <string name="volume">Гучність</string>
+    <string name="select">Вибрати</string>
+    <string name="default_ring">Мелодія за замовчуванням</string>
+    <string name="pulse_count">Кількість пульсацій:</string>
+    <string name="pulse_duration">Тривалість пульсації:</string>
+    <string name="interpolator_label">Виберіть тип анімації</string>
+    <string name="type_of_ringtone">Тип мелодії</string>
+    <string name="ringtone_name">Назва мелодії</string>
+    <string name="pulsation">Пульсація</string>
+    <string name="turn_off_button">Кнопка вимкнення</string>
+    <string name="screen_settings">Настройки екрану</string>
+    <string name="Linear">Лінійна</string>
+    <string name="Accelerate">Прискорена</string>
+    <string name="Decelerate" translatable="false">Сповільнена</string>
+    <string name="AccelerateDecelerate">Прискорено-сповільнена</string>
+</resources>
